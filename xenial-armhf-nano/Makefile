@@ -21,6 +21,11 @@ SHA1SUMSFILE=$(IMAGEPREFIX).sha1sums.txt
 all:
 	set -e; sudo lb build 2>&1 | tee $(LOGFILE)
 	if [ -f binary-tar.tar.gz ]; then \
+		mkdir tmp_rootfs; \
+		cd tmp_rootfs; sudo tar xf ../binary-tar.tar.gz ; \
+		sudo mv binary/* .; sudo rmdir binary; \
+		sudo tar zcf ../binary-tar.tar.gz *; \
+		cd ..; sudo rm -rf tmp_rootfs; \
 		tar -jcf $(CONFIGFILE) auto/ config/ configure; \
 		sudo mv binary.contents $(LISTFILE); \
 		sudo mv chroot.packages.live $(PKGSFILE); \
