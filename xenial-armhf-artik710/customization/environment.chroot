@@ -1,0 +1,2 @@
+no_proxy="127.0.0.1,localhost"
+http_proxy="http://12.26.226.2:8080"
