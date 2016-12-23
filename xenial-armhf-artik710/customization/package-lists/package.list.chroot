@@ -1,8 +1,4 @@
 # Packages needed for artik - Nano
-apt
-apt-utils
-console-setup
-debconf
 gnupg
 ifupdown
 initramfs-tools
@@ -26,4 +22,98 @@ ubuntu-keyring
 udev
 whiptail
 
+bash
+systemd
+tar
+cpio
+openssl
+python
+gzip
+elfutils
+curl
+passwd
+nfs-common
+nfs-kernel-server
+e2fsprogs
+findutils
+bzip2
+xz-utils
+man
+
+# Ubuntu
+apt
+apt-utils
+console-setup
+debconf
+gnupg
+initscripts
+ubuntu-keyring
+
+# Development
+
+# Library
+libglib2.0-0
+
+# Multimedia
+alsa-utils
+pulseaudio
+pulseaudio-utils
+
+# Graphics
+libdrm2
+fbi
+
+# Network
+net-tools
+wpasupplicant
 connman
+openssh-server
+openssh-client
+isc-dhcp-client
+wireless-tools
+rfkill
+avahi-daemon
+avahi-utils
+hostapd
+bridge-utils
+libnss-mdns
+iptables
+libsbc1
+dnsmasq
+iperf3
+mosquitto
+bluez
+bluez-obexd
+pulseaudio-module-bluetooth
+obexftp
+
+# Web
+nodejs
+
+# Utility
+vim
+procps
+i2c-tools
+usbutils
+wget
+
+# artik-plugin
+artik-plugin
+artik-plugin-license
+artik-plugin-bluetooth-common
+artik-plugin-network-common
+artik-plugin-audio-common
+artik-plugin-usb-common
+artik-plugin-wifi-common
+
+# artik710
+artik-plugin-artik710-bluetooth
+artik-plugin-artik710-fstab
+artik-plugin-artik710-audio
+artik-plugin-artik710-wifi
+artik-plugin-artik710-usb
+artik-plugin-artik710-zigbee
+artik-plugin-artik710-security
+artik-plugin-artik710-license
+
+libdrm-nexell

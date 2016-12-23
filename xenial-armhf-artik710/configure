@@ -37,6 +37,7 @@ lb config \
  --mode ubuntu \
  --security false \
  --system normal \
+ --apt-recommends false \
  $apt_http_proxy \
  --updates false
 
