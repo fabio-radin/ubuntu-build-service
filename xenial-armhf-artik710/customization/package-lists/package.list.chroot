@@ -35,6 +35,7 @@ passwd
 nfs-common
 nfs-kernel-server
 e2fsprogs
+dosfstools
 findutils
 bzip2
 xz-utils
@@ -50,6 +51,7 @@ initscripts
 ubuntu-keyring
 
 # Development
+strace
 
 # Library
 libglib2.0-0
