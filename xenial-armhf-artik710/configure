@@ -12,6 +12,10 @@ echo "I: create configuration"
 export LB_BOOTSTRAP_INCLUDE="apt-transport-https gnupg"
 if [ "$http_proxy" != "" ]; then
 	apt_http_proxy="--apt-http-proxy $http_proxy"
+	mkdir -p customization/includes.chroot/etc/apt/apt.conf.d/
+	cat > customization/includes.chroot/etc/apt/apt.conf.d/01-proxy << __EOF__
+Acquire::http::Proxy "${http_proxy}";
+__EOF__
 fi
 
 lb config \
