@@ -1,27 +1,4 @@
 # Packages needed for artik - Nano
-gnupg
-ifupdown
-initramfs-tools
-initscripts
-iproute
-iputils-ping
-isc-dhcp-client
-kbd
-makedev
-mawk
-mountall
-net-tools
-netbase
-netcat-openbsd
-ntpdate
-procps
-python-minimal
-rsyslog
-sudo
-ubuntu-keyring
-udev
-whiptail
-
 bash
 systemd
 tar
@@ -33,7 +10,6 @@ elfutils
 curl
 passwd
 nfs-common
-nfs-kernel-server
 e2fsprogs
 dosfstools
 findutils
@@ -49,6 +25,15 @@ debconf
 gnupg
 initscripts
 ubuntu-keyring
+ifupdown
+iputils-ping
+makedev
+mountall
+net-tools
+netbase
+ntpdate
+sudo
+udev
 
 # Development
 strace
