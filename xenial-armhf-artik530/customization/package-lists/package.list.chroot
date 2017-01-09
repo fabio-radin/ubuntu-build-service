@@ -95,15 +95,14 @@ artik-plugin-audio-common
 artik-plugin-usb-common
 artik-plugin-wifi-common
 
-# artik710
-artik-plugin-artik710-bluetooth
-artik-plugin-artik710-fstab
-artik-plugin-artik710-audio
-artik-plugin-artik710-wifi
-artik-plugin-artik710-usb
-artik-plugin-artik710-zigbee
-artik-plugin-artik710-security
-artik-plugin-artik710-license
+# artik530
+artik-plugin-artik530-bluetooth
+artik-plugin-artik530-fstab
+artik-plugin-artik530-audio
+artik-plugin-artik530-wifi
+artik-plugin-artik530-usb
+artik-plugin-artik530-zigbee
+artik-plugin-artik530-security
 
 libdrm-nexell
 drm-utils
