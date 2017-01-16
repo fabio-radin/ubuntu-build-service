@@ -1,1 +1,1 @@
-no_proxy=localhost
+no_proxy=localhost,ports.ubuntu.com

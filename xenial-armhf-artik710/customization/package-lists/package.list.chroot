@@ -76,6 +76,10 @@ obexftp
 iw
 tcpdump
 
+iotivity
+iotivity-service
+iotivity-test
+
 # Web
 nodejs
 
@@ -94,6 +98,10 @@ artik-plugin-network-common
 artik-plugin-audio-common
 artik-plugin-usb-common
 artik-plugin-wifi-common
+
+zigbeed
+libartik-sdk-base
+libartik-sdk-zigbee
 
 # artik710
 artik-plugin-artik710-bluetooth
