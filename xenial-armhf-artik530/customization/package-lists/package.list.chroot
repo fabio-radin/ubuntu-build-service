@@ -102,6 +102,7 @@ artik-plugin-wifi-common
 zigbeed
 libartik-sdk-base
 libartik-sdk-zigbee
+libartik-security
 
 # artik530
 artik-plugin-artik530-bluetooth
@@ -110,6 +111,7 @@ artik-plugin-artik530-audio
 artik-plugin-artik530-wifi
 artik-plugin-artik530-usb
 artik-plugin-artik530-zigbee
+artik-plugin-artik530-zram
 artik-plugin-artik530-security
 
 libdrm-nexell
