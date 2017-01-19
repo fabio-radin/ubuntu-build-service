@@ -71,6 +71,7 @@ iperf3
 mosquitto
 bluez
 bluez-obexd
+bluez-hcidump
 pulseaudio-module-bluetooth
 obexftp
 iw
