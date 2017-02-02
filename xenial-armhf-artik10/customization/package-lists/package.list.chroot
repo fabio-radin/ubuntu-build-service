@@ -1,101 +1,7 @@
-# Packages needed for artik - Nano
-bash
-systemd
-tar
-cpio
-openssl
-python
-gzip
-elfutils
-curl
-passwd
-nfs-common
-e2fsprogs
-dosfstools
-findutils
-bzip2
-xz-utils
-man
+artik-ubuntu-meta-base
+artik-ubuntu-meta-network
+artik-ubuntu-meta-misc
 
-# Ubuntu
-apt
-apt-utils
-console-setup
-debconf
-gnupg
-initscripts
-ubuntu-keyring
-ifupdown
-iputils-ping
-makedev
-mountall
-net-tools
-netbase
-ntpdate
-sudo
-udev
-
-# Development
-strace
-
-# Library
-libglib2.0-0
-
-# Multimedia
-alsa-utils
-pulseaudio
-pulseaudio-utils
-
-# Graphics
-libdrm2
-fbi
-
-# Network
-net-tools
-wpasupplicant
-connman
-openssh-server
-openssh-client
-isc-dhcp-client
-wireless-tools
-rfkill
-avahi-daemon
-avahi-utils
-hostapd
-bridge-utils
-libnss-mdns
-iptables
-libsbc1
-dnsmasq
-iperf3
-mosquitto
-bluez
-bluez-obexd
-pulseaudio-module-bluetooth
-obexftp
-iw
-tcpdump
-
-# Web
-nodejs
-
-# Utility
-vim
-procps
-i2c-tools
-usbutils
-wget
-
-# artik-plugin
-artik-plugin
-artik-plugin-license
-artik-plugin-bluetooth-common
-artik-plugin-network-common
-artik-plugin-audio-common
-artik-plugin-usb-common
-artik-plugin-wifi-common
-
-# artik530
 artik-plugin-artik10-bluetooth
 artik-plugin-artik10-fstab
 artik-plugin-artik10-audio
@@ -103,8 +9,3 @@ artik-plugin-artik10-wifi
 artik-plugin-artik10-usb
 
 libdrm-exynos1
-drm-utils
-
-gstreamer1.0-plugins-base
-gstreamer1.0-plugins-good
-gstreamer1.0-tools
