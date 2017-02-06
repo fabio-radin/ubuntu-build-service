@@ -43,7 +43,7 @@ lb config \
  --system normal \
  --apt-recommends false \
  $apt_http_proxy \
- --updates false
+ --updates true
 
 echo "I: copy customization"
 cp -rf customization/* config/
