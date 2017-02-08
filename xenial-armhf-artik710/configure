@@ -8,6 +8,8 @@
 
 set -e
 
+PORT=${PORT:-8000}
+
 echo "I: create configuration"
 export LB_BOOTSTRAP_INCLUDE="apt-transport-https gnupg"
 if [ "$http_proxy" != "" ]; then
@@ -47,5 +49,9 @@ lb config \
 
 echo "I: copy customization"
 cp -rf customization/* config/
+
+if [ "$PORT" != "8000" ]; then
+	sed -i "s/8000/$PORT/g" config/archives/artik-local-repo.list.chroot
+fi
 
 echo "I: done"
