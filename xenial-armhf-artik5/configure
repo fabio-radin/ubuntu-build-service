@@ -41,7 +41,7 @@ lb config \
  --linux-packages none \
  --mirror-bootstrap "http://ports.ubuntu.com/ubuntu-ports/" \
  --mode ubuntu \
- --security false \
+ --security true \
  --system normal \
  --apt-recommends false \
  $apt_http_proxy \
