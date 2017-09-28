@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "I: Remove local apt repo"
-rm -f ./binary/etc/apt/sources.list.d/artik-local-repo.list
+rm -f ./binary/etc/apt/sources.list.d/artik-local-repo*
