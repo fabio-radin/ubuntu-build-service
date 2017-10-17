@@ -40,6 +40,7 @@ lb config \
  --security true \
  --system normal \
  --apt-recommends false \
+ --apt-options "--yes --allow-downgrades" \
  $apt_http_proxy \
  --updates true
 
