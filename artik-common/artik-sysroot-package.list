@@ -46,4 +46,7 @@ sqlite3
 uuid
 valgrind
 wakaama-dev
+libzigbee-dev
 libartik-sdk-dev
+libartik-sdk-dbg
+libc6-dbg
