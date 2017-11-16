@@ -50,3 +50,4 @@ libzigbee-dev
 libartik-sdk-dev
 libartik-sdk-dbg
 libc6-dbg
+libartik-security-dev
