@@ -4,7 +4,10 @@ This repository provides to generate ubuntu rootfs by debian's live build system
 
 ## Directory structure
 - xenial-arm64-artik710: ubuntu xenial(16.04) for artik710
+- xenial-arm64-artik710s: ubuntu xenial(16.04) for artik710s
 - xenial-armhf-artik530: ubuntu xenial(16.04) for artik530
+- xenial-armhf-artik530s: ubuntu xenial(16.04) for artik530s
+- xenial-armhf-artik533s: ubuntu xenial(16.04) for artik533s
 
 ## Prerequisites
 ### Environment set up for ubuntu package build
@@ -129,10 +132,25 @@ To build a .deb package file from the source, you have to make debian/ directory
 cd bluez
 sbuild --chroot xenial-amd64-arm64 --host arm64 --extra-repository="deb [trusted=yes] http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710 A710_os_3.0.0 main" -j8
 ```
+- arm64(artik710s)
+```
+cd bluez
+sbuild --chroot xenial-amd64-arm64 --host arm64 --extra-repository="deb [trusted=yes] http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik710s A710s_os_3.0.0 main" -j8
+```
 - armhf(artik530)
 ```
 cd bluez
 sbuild --chroot xenial-amd64-armhf --host armhf --extra-repository="deb [trusted=yes] http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik530 A530_os_3.0.0 main" -j8
+```
+- armhf(artik530s)
+```
+cd bluez
+sbuild --chroot xenial-amd64-armhf --host armhf --extra-repository="deb [trusted=yes] http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik530s A530s_os_3.0.0 main" -j8
+```
+- armhf(artik533s)
+```
+cd bluez
+sbuild --chroot xenial-amd64-armhf --host armhf --extra-repository="deb [trusted=yes] http://repo.artik.cloud/artik/bin/pub/artik-platform/ubuntu/artik533s A533s_os_3.0.0 main" -j8
 ```
 - Build output
 You can find the build results(deb, ddeb, src tarball) from the ../
@@ -147,14 +165,33 @@ cd xenial-arm64-artik710
 ./configure
 make
 ```
-
+- artik710s
+You should download the artik710s security package from https://developer.artik.io/downloads/artik-710s/download and copy them into prebuilt/arm64/artik710s directory.
+```
+cd xenial-arm64-artik710s
+./configure
+make
+```
 - artik530
 ```
 cd xenial-armhf-artik530
 ./configure
 make
 ```
-
+- artik530s
+You should download the artik530s security package from https://developer.artik.io/downloads/artik-530s/download and copy them into prebuilt/armhf/artik530s directory.
+```
+cd xenial-armhf-artik530s
+./configure
+make
+```
+- artik533s
+You should download the artik533s security package from https://developer.artik.io/downloads/artik-533s/download and copy them into prebuilt/armhf/artik533s directory.
+```
+cd xenial-armhf-artik533s
+./configure
+make
+```
 - Build output
 The rootfs tarball will be generated in each directory as "xenial-{artik_module}-YYMMDD-1.tar.gz". You can use the tarball for deploying artik image from build-artik.
 ```
@@ -273,7 +310,10 @@ cd ~/ubuntu/debs
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 - artik710) Append a package name of the "xenial-arm64-artik710/customization/package-lists/package.list.chroot"
+- artik710s) Append a package name of the "xenial-arm64-artik710s/customization/package-lists/package.list.chroot"
 - artik530) Append a package name of the "xenial-armhf-artik530/customization/package-lists/package.list.chroot"
+- artik530s) Append a package name of the "xenial-armhf-artik530s/customization/package-lists/package.list.chroot"
+- artik533s) Append a package name of the "xenial-armhf-artik533s/customization/package-lists/package.list.chroot"
 - Build
 ```
 cd xenial-arm64-artik710
