@@ -1,0 +1,16 @@
+libartik-sdk
+libartik-sdk-base
+libartik-sdk-bluetooth
+libartik-sdk-connectivity
+libartik-sdk-dbg
+libartik-sdk-lwm2m
+libartik-sdk-media
+libartik-sdk-mqtt
+libartik-sdk-sensor
+libartik-sdk-systemio
+libartik-sdk-tests
+libartik-sdk-wifi
+libartik-sdk-zigbee
+ble-onboarding
+enmd
+wakaama-client

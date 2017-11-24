@@ -10,6 +10,7 @@ set -e
 
 PORT=${PORT:-8000}
 BUILD_SYSROOT=${BUILD_SYSROOT:-false}
+WITH_E2E=${WITH_E2E:-false}
 
 echo "I: create configuration"
 export LB_BOOTSTRAP_INCLUDE="apt-transport-https gnupg"
@@ -55,6 +56,10 @@ fi
 if [ "$BUILD_SYSROOT" = "true" ]; then
 	cp ../artik-common/artik-sysroot-package.list config/package-lists/
 	cp ../artik-common/artik-sysroot-nexell-package.list config/package-lists/
+fi
+
+if [ "$WITH_E2E" = "true" ]; then
+	cp ../artik-common/artik-e2e-package.list config/package-lists/
 fi
 
 echo "I: done"
