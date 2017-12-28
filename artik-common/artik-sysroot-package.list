@@ -49,3 +49,5 @@ wakaama-dev
 libzigbee-dev
 libc6-dbg
 libartik-security-dev
+libgstreamer1.0-dev
+libgstreamer-plugins-base1.0-dev
