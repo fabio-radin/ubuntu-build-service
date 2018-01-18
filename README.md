@@ -114,6 +114,7 @@ The live-build is a tool for debian live system. We can customize the debian/ubu
 
 - Install live-build package from the source
 ```
+sudo apt-get install qemu-user-static
 cd ubuntu-build-service
 cd packages
 sudo dpkg -i live-build_3.0.5-1linaro1_all.deb
