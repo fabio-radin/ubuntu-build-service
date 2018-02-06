@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd binary
+
+echo "I:Add ttyAMA4 for nexell s5p4418 chipset"
+cat >> etc/securetty << __EOF__
+ttyAMA4
+__EOF__
