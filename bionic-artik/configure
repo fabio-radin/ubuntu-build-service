@@ -12,6 +12,7 @@ PORT=${PORT:-8000}
 ARCH=${ARCH:-armhf}
 ARTIK_MODEL=${ARTIK_MODEL:-artik305s}
 WITH_LOCAL_REPO=${WITH_LOCAL_REPO:-true}
+QEMU_ARCH=${QEMU_ARCH:-arm}
 
 echo "I: create configuration"
 export LB_BOOTSTRAP_INCLUDE="apt-transport-https gnupg"
