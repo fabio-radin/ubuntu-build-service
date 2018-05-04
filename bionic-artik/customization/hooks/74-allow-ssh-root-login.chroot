@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "I: Allow ssh login as root user"
+sed -i 's/#PermitRootLogin/PermitRootLogin/' /etc/ssh/sshd_config
