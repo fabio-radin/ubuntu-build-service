@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "I: Disable HFP roles enable HSP role in pulseaudio"
+
+sed -i 's/load-module module-bluetooth-discover/load-module module-bluetooth-discover headset=native/g' /etc/pulse/default.pa
