@@ -1,0 +1,13 @@
+#!/bin/sh
+
+cd binary
+
+echo "I:Add ttySAC[0-4] and ttyAMA4 for artik"
+cat >> etc/securetty << __EOF__
+ttySAC0
+ttySAC1
+ttySAC2
+ttySAC3
+ttySAC4
+ttyAMA4
+__EOF__
