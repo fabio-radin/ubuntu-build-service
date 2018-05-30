@@ -20,9 +20,9 @@ if [ "$http_proxy" != "" ]; then
 	apt_http_proxy="--apt-http-proxy $http_proxy"
 fi
 
-if [ "$ARCH" == "arm64" ]; then
+if [ "$ARCH" = "arm64" ]; then
 	QEMU_ARCH=aarch64
-elif [ "$ARCH" == "armhf" ]; then
+elif [ "$ARCH" = "armhf" ]; then
 	QEMU_ARCH=arm
 fi
 
