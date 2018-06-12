@@ -19,8 +19,9 @@ artik-plugin-usb-common
 artik-plugin-wifi-common
 
 artik-ota
-libsee-linux
 libartik-security
 
 artik-repos-artik711s
+
+libsee-linux-trustware
 security-b2b-artik710s
