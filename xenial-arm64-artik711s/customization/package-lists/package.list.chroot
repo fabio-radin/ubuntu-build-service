@@ -2,13 +2,13 @@ artik-ubuntu-meta-base
 artik-ubuntu-meta-network
 artik-ubuntu-meta-nexell
 
-artik-plugin-artik710-bluetooth
-artik-plugin-artik710-fstab
-artik-plugin-artik710-audio
-artik-plugin-artik710-wifi
-artik-plugin-artik710-usb
-artik-plugin-artik710-security
-artik-plugin-artik710-license
+artik-plugin-artik711-bluetooth
+artik-plugin-artik711-fstab
+artik-plugin-artik711-audio
+artik-plugin-artik711-wifi
+artik-plugin-artik711-usb
+artik-plugin-artik711-security
+artik-plugin-artik711-license
 
 artik-plugin
 artik-plugin-license
