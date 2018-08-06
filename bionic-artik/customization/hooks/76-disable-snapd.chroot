@@ -1,3 +1,0 @@
-echo "I: Disable snapd"
-systemctl disable snapd.service
-systemctl disable snapd.seeded.service
