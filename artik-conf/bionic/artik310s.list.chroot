@@ -1,0 +1,12 @@
+artik-plugin-artik530-audio
+artik-plugin-artik530-fstab
+artik-plugin-artik530-security
+artik-plugin-artik530-usb
+artik-plugin-artik530-zigbee
+artik-plugin-artik530-zram
+
+libsee-linux-trustware
+security-b2b-artik305s
+
+marvell-sd8977-firmware
+marvell-sd8977-utils
