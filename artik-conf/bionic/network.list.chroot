@@ -26,4 +26,6 @@ pulseaudio-module-bluetooth
 rfkill
 wireless-tools
 wpasupplicant
-zigbeed
+silabs-ncp-manager
+zigbeed3
+zigbeed3-misc
