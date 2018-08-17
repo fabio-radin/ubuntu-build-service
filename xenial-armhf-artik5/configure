@@ -54,6 +54,8 @@ fi
 
 if [ "$BUILD_SYSROOT" = "true" ]; then
 	cp ../artik-common/artik-sysroot-package.list config/package-lists/
+	cp ../artik-common/artik-sysroot-nexell-package.list config/package-lists/
+	cp ../artik-common/artik-sysroot-artiksdk-package.list config/package-lists/
 fi
 
 echo "I: done"
