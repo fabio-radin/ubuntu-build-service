@@ -17,7 +17,6 @@ isc-dhcp-client
 iw
 libmosquitto1
 libnss-mdns
-libzigbee
 mosquitto
 netbase
 net-tools
