@@ -59,6 +59,8 @@ lb config \
 echo "I: copy customization"
 cp -rf customization/* config/
 
+cp ../artik-conf/xenial/base.list.chroot config/package-lists/
+cp ../artik-conf/xenial/network.list.chroot config/package-lists/
 cp ../artik-conf/xenial/${ARTIK_MODEL}.list.chroot config/package-lists/
 
 mkdir -p config/archives
