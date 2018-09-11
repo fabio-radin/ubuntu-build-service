@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "I: Add wlan, p2p into connman.conf"
+sed -i '/^NetworkInterfaceBlacklist/s/$/,wlan,p2p/' /etc/connman/main.conf
+
+echo "I: Replace symlink of /etc/resolv.conf"
+sed -i 's/\/run\/connman\/resolv.conf/\/run\/systemd\/resolve\/resolv.conf/g'     /usr/lib/tmpfiles.d/connman_resolvconf.conf
