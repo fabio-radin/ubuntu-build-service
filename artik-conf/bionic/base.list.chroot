@@ -19,7 +19,6 @@ passwd
 procps
 pulseaudio
 python3
-snapd
 sudo
 systemd
 systemd-sysv
