@@ -86,4 +86,8 @@ if [ "$BUILD_SYSROOT" = "true" ]; then
     cp ../artik-common/artik-sysroot-nexell-package.list config/package-lists/
 fi
 
+if [ "$WITH_E2E" = "true" ]; then
+	cp ../artik-common/artik-e2e-package.list config/package-lists/
+fi
+
 echo "I: done"
