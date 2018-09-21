@@ -1,11 +1,9 @@
 #libartik sdk
 artiksee
-artiksee-dbg
 libartik-sdk
 libartik-sdk-base
 libartik-sdk-bluetooth
 libartik-sdk-connectivity
-libartik-sdk-dbg
 libartik-sdk-lwm2m
 libartik-sdk-media
 libartik-sdk-mqtt
