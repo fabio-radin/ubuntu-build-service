@@ -13,3 +13,9 @@ rm -f ./var/lib/apt/lists/*Release.gpg
 echo "I: rm /var/cache/apt"
 rm -f ./var/cache/apt/pkgcache.bin
 rm -f ./var/cache/apt/srcpkgcache.bin
+
+echo "I: rm /var/lib/apt/*Translation*"
+rm -f ./var/lib/apt/lists/*Translation*
+
+echo "I: rm /pool"
+rm -rf ./pool
