@@ -88,6 +88,9 @@ fi
 
 if [ "$WITH_E2E" = "true" ]; then
 	cp ../artik-common/artik-e2e-package.list config/package-lists/
+
+	cp ../artik-common/nodesource.list config/archives/nodesource.list.chroot
+	cp ../artik-common/nodesource.key config/archives/nodesource.key.chroot
 fi
 
 echo "I: done"

@@ -1,2 +1,2 @@
-deb http://deb.nodesource.com/node_6.x @DISTRIBUTION@ main
-deb-src http://deb.nodesource.com/node_6.x @DISTRIBUTION@ main
+deb http://deb.nodesource.com/node_10.x @DISTRIBUTION@ main
+deb-src http://deb.nodesource.com/node_10.x @DISTRIBUTION@ main
