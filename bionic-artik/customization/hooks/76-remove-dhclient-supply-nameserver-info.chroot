@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "I: Remove fragment to make dhclient supply nameserver information to resolvconf"
+if [ -x /etc/dhcp/dhclient-enter-hooks.d/resolved ]; then
+	rm -f /etc/dhcp/dhclient-enter-hooks.d/resolved
+fi
