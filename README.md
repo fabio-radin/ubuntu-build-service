@@ -98,14 +98,14 @@ mk-sbuild --target arm64 xenial
 
 - (armhf/artik530)Copy qemu-arm-static to schroot's /usr/bin
 ```
-wget https://github.com/SamsungARTIK/fed-artik-tools/raw/artik/qemu-arm-static
+wget https://github.com/fabio-radin/fed-artik-tools/raw/artik/qemu-arm-static
 chmod a+x qemu-arm-static
 sudo cp qemu-arm-static /var/lib/schroot/chroots/xenial-amd64-armhf/usr/bin
 ```
 
 - (arm64/artik710)Copy qemu-aarch64-static to schroot's /usr/bin
 ```
-wget https://github.com/SamsungARTIK/fed-artik-tools/raw/artik/qemu-aarch64-static
+wget https://github.com/fabio-radin/fed-artik-tools/raw/artik/qemu-aarch64-static
 chmod a+x qemu-aarch64-static
 sudo cp qemu-aarch64-static /var/lib/schroot/chroots/xenial-amd64-arm64/usr/bin
 ```
